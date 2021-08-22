@@ -70,18 +70,19 @@ map-information-box {
   top:  0em;
   max-width:  30em;
   line-height: 1.25em;
-  height: calc(100% - 5.5em);
+  height: auto;
   overflow-x:  hidden;
   overflow-y: scroll;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(0,0,0,0.9);
+  color: white;
   padding: 1em;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
   border: grey 1px solid;
 }
 
-map-information-box video, map-information-box img {
-  width:  100%;
+map-information-box img {
+  width: 100%;
   height: auto;
 }
 
@@ -97,6 +98,7 @@ map-information-box video, map-information-box img {
   top: 0px;
   margin: 0.5em 0.5em;
   border: 1px solid black;
+  color: white;
   background-color: transparent;
 }
 
@@ -107,7 +109,7 @@ map-information-box video, map-information-box img {
 
 .close-button:active {
   background-color: white;
-  color: black;
+  color: grey;
 }
 
 
@@ -116,7 +118,7 @@ map-information-box::-webkit-scrollbar {
 }
 
 map-information-box a {
-  color:  black;
+  color:  white;
 }
 
 
